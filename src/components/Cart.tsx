@@ -92,7 +92,7 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
 
   const handleWhatsAppOrder = () => {
     const message = generateWhatsAppMessage();
-    const phoneNumber = '+961 70 123 456'; // Replace with actual phone number
+    const phoneNumber = '+961 81047192'; // Updated phone number
     const whatsappUrl = `https://wa.me/${phoneNumber.replace(/\s+/g, '')}?text=${message}`;
     window.open(whatsappUrl, '_blank');
   };

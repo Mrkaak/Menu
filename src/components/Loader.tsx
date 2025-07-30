@@ -29,7 +29,7 @@ const Loader: React.FC<LoaderProps> = ({ isLoading }) => {
             animation: 'kaakes-loader-in 1.1s cubic-bezier(.4,2,.6,1)'
           }}
         >
-          {/* Animated Bread SVG */}
+          {/* Animated Bread SVG
           <svg
             width="60"
             height="60"
@@ -49,9 +49,9 @@ const Loader: React.FC<LoaderProps> = ({ isLoading }) => {
             <ellipse cx="30" cy="35" rx="18" ry="8" fill="#fffbe6" stroke="#BFC23F" strokeWidth="1.5" />
             <ellipse cx="22" cy="38" rx="2" ry="1.2" fill="#BFC23F" />
             <ellipse cx="38" cy="38" rx="2" ry="1.2" fill="#BFC23F" />
-          </svg>
+          </svg> */}
           <img
-            src={logo}
+            src={logo}-
             alt="Mr. KaaK Logo"
             className="object-contain drop-shadow-lg"
             style={{ width: 130, height: 130, borderRadius: '50%' }}
