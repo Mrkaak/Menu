@@ -82,7 +82,7 @@ export const menuItems: MenuItem[] = [
     prepTime: 8,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
     // Hardcoded image example
-    image: '/kaak-accawi.jpeg'
+    image: `/Menu/kaak-accawi.jpeg`
   },
   {
     id: '4cheese-kaak',
@@ -95,7 +95,7 @@ export const menuItems: MenuItem[] = [
     prepTime: 10,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
     // Dynamic image example
-    image: `/4cheese-kaak.png`
+    image: `/Menu/4cheese-kaak.png`
   },
   {
     id: 'kafta-cheese',
@@ -107,7 +107,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 12,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/kafta-cheese-kaak.png`
+    image: `/Menu/kafta-cheese-kaak.png`
   },
   {
     id: 'cheese-hotdog',
@@ -119,7 +119,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 8,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/cheeseHotDog-kaak.jpeg`
+    image: `/Menu/cheeseHotDog-kaak.jpeg`
   },
   {
     id: 'kashkawan',
@@ -131,7 +131,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 8,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/kashkawan-kaak.jpeg`
+    image: `/Menu/kashkawan-kaak.jpeg`
   },
   {
     id: 'sujok-cheese',
@@ -143,7 +143,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 10,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/sujok-cheese-kaak.png`
+    image: `/Menu/sujok-cheese-kaak.png`
   },
   {
     id: 'halloum',
@@ -155,7 +155,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 8,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/halloum-kaak.png`
+    image: `/Menu/halloum-kaak.png`
   },
   {
     id: 'halloum-kashkawan',
@@ -167,7 +167,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 9,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/halloum-kashkawan-kaak.png`
+    image: `/Menu/halloum-kashkawan-kaak.png`
   },
   {
     id: 'halloum-pesto',
@@ -179,7 +179,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 9,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/halloum-pesto-kaak.png`
+    image: `/Menu/halloum-pesto-kaak.png`
   },
   {
     id: 'turkey-cheese',
@@ -191,7 +191,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 9,
     addOns: ['vegetables', 'cheddar', 'mozzarella', 'kashkawan', 'ham', 'turkey'],
-    image: `/turkeycheese-kaak.jpeg`
+    image: `/Menu/turkeycheese-kaak.jpeg`
   },
   {
     id: 'ham-cheese',
@@ -203,7 +203,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 9,
     addOns: ['vegetables', 'cheddar', 'mozzarella', 'kashkawan', 'ham', 'turkey'],
-    image: `/hamcheese-kaak.png`
+    image: `/Menu/hamcheese-kaak.png`
   },
   {
     id: 'plain-kaak',
@@ -215,7 +215,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 5,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/plain-kaak.jpeg`
+    image: `/Menu/plain-kaak.jpeg`
   },
   {
     id: 'fajita',
@@ -227,7 +227,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 12,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/fajita-kaak.png`
+    image: `/Menu/fajita-kaak.png`
   },
   {
     id: 'labneh-kawarma',
@@ -239,7 +239,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 10,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/labneh-kawarma-kaak.png`
+    image: `/Menu/labneh-kawarma-kaak.png`
   },
   {
     id: 'labneh-makdous',
@@ -251,7 +251,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 8,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/labneh-makdous-kaak.png`
+    image: `/Menu/labneh-makdous-kaak.png`
   },
   {
     id: 'labneh-zaatar',
@@ -263,7 +263,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 8,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/labneh-zaatar-kaak.jpeg`
+    image: `/Menu/labneh-zaatar-kaak.jpeg`
   },
   {
     id: 'kawarma-cheese',
@@ -275,7 +275,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 11,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/kawarma-cheese-kaak.png`
+    image: `/Menu/kawarma-cheese-kaak.png`
   },
   {
     id: 'mix-cheese',
@@ -287,7 +287,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 9,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/kashkawan-kaak.jpeg`
+    image: `/Menu/kashkawan-kaak.jpeg`
   },
   {
     id: 'nutella',
@@ -298,7 +298,7 @@ export const menuItems: MenuItem[] = [
     ingredients: { en: 'Nutella', ar: 'نوتيلا' },
     category: 'desserts',
     prepTime: 6,
-    image: `/nutella-kaak.png`
+    image: `/Menu/nutella-kaak.png`
   },
   {
     id: 'peanut-nutella',
@@ -309,7 +309,7 @@ export const menuItems: MenuItem[] = [
     ingredients: { en: 'Homemade Peanut butter, nutella', ar: 'زبدة فول سوداني محلية الصنع، نوتيلا' },
     category: 'desserts',
     prepTime: 7,
-    image: `/peanut-nutella-kaak.png`
+    image: `/Menu/peanut-nutella-kaak.png`
   },
   {
     id: 'choco-mozzarella',
@@ -320,7 +320,7 @@ export const menuItems: MenuItem[] = [
     ingredients: { en: 'Nutella, mozzarella cheese', ar: 'نوتيلا، جبنة موزاريلا' },
     category: 'desserts',
     prepTime: 8,
-    image: `/choco-mozzarella-kaak.png`
+    image: `/Menu/choco-mozzarella-kaak.png`
   },
   {
     id: 'picon',
@@ -332,7 +332,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 8,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/picon-kaak.jpeg`
+    image: `/Menu/picon-kaak.jpeg`
   },
   {
     id: 'picon-kashkawan',
@@ -344,7 +344,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 9,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/picon-kaak.jpeg`
+    image: `/Menu/picon-kaak.jpeg`
   },
   {
     id: 'pizza',
@@ -356,7 +356,7 @@ export const menuItems: MenuItem[] = [
     category: 'kaak',
     prepTime: 12,
     addOns: ['vegetables', 'mozzarella', 'kashkawan', 'cheddar', 'ham', 'turkey'],
-    image: `/pizza-kaak.png`
+    image: `/Menu/pizza-kaak.png`
   },
   // Beverages
   {
@@ -368,7 +368,7 @@ export const menuItems: MenuItem[] = [
     ingredients: { en: 'Carbonated soft drink', ar: 'مشروب غازي' },
     category: 'beverages',
     prepTime: 2,
-    image: `/soft-drinks.jpg`
+    image: `/Menu/soft-drinks.jpg`
   },
   {
     id: 'ice-tea',
@@ -379,7 +379,7 @@ export const menuItems: MenuItem[] = [
     ingredients: { en: 'Iced tea', ar: 'شاي مثلج' },
     category: 'beverages',
     prepTime: 3,
-    image: `/ice-tea.png`
+    image: `/Menu/ice-tea.png`
   },
   {
     id: 'xtra-juice',
@@ -440,7 +440,7 @@ export const menuItems: MenuItem[] = [
     ingredients: { en: 'Instant coffee 3in1', ar: 'قهوة سريعة 3 في 1' },
     category: 'beverages',
     prepTime: 3,
-    image: `/nescafe-3in1.jpg`
+    image: `/Menu/nescafe-3in1.jpg`
   },
   {
     id: 'nescafe-2in1',
@@ -451,7 +451,7 @@ export const menuItems: MenuItem[] = [
     ingredients: { en: 'Instant coffee 2in1', ar: 'قهوة سريعة 2 في 1' },
     category: 'beverages',
     prepTime: 3,
-    image: `/nescafe-3in1.jpg`
+    image: `/Menu/nescafe-3in1.jpg`
   },
   {
     id: 'cappuccino',
@@ -482,6 +482,6 @@ export const menuItems: MenuItem[] = [
     ingredients: { en: 'Bottled water', ar: 'مياه معبأة' },
     category: 'beverages',
     prepTime: 1,
-    image: `/public/small-water.jpg`
+    image: `/Menu/small-water.jpg`
   }
 ];
