@@ -482,6 +482,6 @@ export const menuItems: MenuItem[] = [
     ingredients: { en: 'Bottled water', ar: 'مياه معبأة' },
     category: 'beverages',
     prepTime: 1,
-    image: `/small-water.jpg`
+    image: `/public/small-water.jpg`
   }
 ];
