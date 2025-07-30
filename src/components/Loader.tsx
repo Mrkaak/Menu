@@ -51,7 +51,7 @@ const Loader: React.FC<LoaderProps> = ({ isLoading }) => {
             <ellipse cx="38" cy="38" rx="2" ry="1.2" fill="#BFC23F" />
           </svg> */}
           <img
-            src={logo}-
+            src={logo}
             alt="Mr. KaaK Logo"
             className="object-contain drop-shadow-lg"
             style={{ width: 130, height: 130, borderRadius: '50%' }}
