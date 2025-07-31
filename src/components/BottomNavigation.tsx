@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChefHat, Cookie, Coffee, ShoppingCart } from 'lucide-react';
+import { ChefHat, Cookie, Coffee, ShoppingCart, GlassWater } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useCart } from '../contexts/CartContext';
 
@@ -21,7 +21,7 @@ const BottomNavigation: React.FC<BottomNavigationProps> = ({
   const navItems = [
     { id: 'kaak', icon: ChefHat, label: t('nav.kaak') },
     { id: 'desserts', icon: Cookie, label: t('nav.desserts') },
-    { id: 'beverages', icon: Coffee, label: t('nav.beverages') },
+    { id: 'beverages', icon: GlassWater, label: t('nav.beverages') },
   ];
 
   return (

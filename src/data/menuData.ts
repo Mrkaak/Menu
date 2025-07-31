@@ -368,7 +368,7 @@ export const menuItems: MenuItem[] = [
     ingredients: { en: 'Carbonated soft drink', ar: 'مشروب غازي' },
     category: 'beverages',
     prepTime: 2,
-    image: `/Menu/soft-drinks.jpg`
+    image: `/Menu/pepsi.png`
   },
   {
     id: 'ice-tea',
@@ -389,7 +389,8 @@ export const menuItems: MenuItem[] = [
     priceLBP: 67500,
     ingredients: { en: 'Fruit juice', ar: 'عصير فواكه' },
     category: 'beverages',
-    prepTime: 2
+    prepTime: 2,
+    image: `/Menu/xtra-juice.png`
   },
   {
     id: 'pyramide',
@@ -399,7 +400,8 @@ export const menuItems: MenuItem[] = [
     priceLBP: 29700,
     ingredients: { en: 'Pyramide drink', ar: 'مشروب بيراميد' },
     category: 'beverages',
-    prepTime: 2
+    prepTime: 2,
+    image: `/Menu/pyramidjuice.png`
   },
   {
     id: 'mr-juicy',
@@ -409,17 +411,19 @@ export const menuItems: MenuItem[] = [
     priceLBP: 49500,
     ingredients: { en: 'Mr Juicy drink', ar: 'مشروب مستر جوسي' },
     category: 'beverages',
-    prepTime: 2
+    prepTime: 2,
+    image: `/Menu/mrjuicyy.png`
   },
   {
     id: 'dark-bleue',
-    name: { en: 'Dark Bleue', ar: 'دارك بلو' },
+    name: { en: 'Dark Blue', ar: 'دارك بلو' },
     description: { en: 'Premium Dark Bleue beverage', ar: 'مشروب دارك بلو فاخر' },
     priceUSD: 1.11,
     priceLBP: 99900,
     ingredients: { en: 'Dark Bleue drink', ar: 'مشروب دارك بلو' },
     category: 'beverages',
-    prepTime: 2
+    prepTime: 2,
+    image: `/Menu/darkblue.png`
   },
   {
     id: 'luna-ice-coffee',
@@ -429,7 +433,8 @@ export const menuItems: MenuItem[] = [
     priceLBP: 99900,
     ingredients: { en: 'Iced coffee', ar: 'قهوة مثلجة' },
     category: 'beverages',
-    prepTime: 4
+    prepTime: 4,
+    image: '/Menu/iced-coffee.png'
   },
   {
     id: 'nescafe-3in1',
@@ -461,7 +466,8 @@ export const menuItems: MenuItem[] = [
     priceLBP: 72000,
     ingredients: { en: 'Cappuccino', ar: 'كابتشينو' },
     category: 'beverages',
-    prepTime: 4
+    prepTime: 4,
+    image: `/Menu/cappucino.png`
   },
   {
     id: 'soft-drink-glass',
@@ -471,7 +477,8 @@ export const menuItems: MenuItem[] = [
     priceLBP: 72000,
     ingredients: { en: 'Glass bottle soft drink', ar: 'مشروب غازي زجاجة' },
     category: 'beverages',
-    prepTime: 2
+    prepTime: 2,
+    image: `/Menu/pepsiglass.png`
   },
   {
     id: 'small-water',
